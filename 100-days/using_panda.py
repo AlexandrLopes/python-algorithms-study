@@ -1,4 +1,4 @@
-# ========== withou pandas 
+# ========== without pandas 
 
 # import csv
 #
