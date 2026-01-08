@@ -1,0 +1,20 @@
+# Essa lista simula a resposta da AWS
+servidores = [
+    {'id': 'i-001', 'nome': 'Servidor-Web', 'estado': 'running', 'tipo': 't2.micro'},
+    {'id': 'i-002', 'nome': 'Banco-Dados', 'estado': 'stopped', 'tipo': 'm5.large'},
+    {'id': 'i-003', 'nome': 'Servidor-App', 'estado': 'running', 'tipo': 't2.micro'},
+    {'id': 'i-004', 'nome': 'Backup-Server', 'estado': 'terminated', 'tipo': 't3.medium'}
+]
+
+# SEU OBJETIVO:
+# Percorrer a lista e imprimir APENAS os IDs das máquinas com estado 'running'.
+# Saída esperada: 
+# i-001
+# i-003
+
+# --- ESCREVA SEU CÓDIGO ABAIXO ---
+
+
+for maquina in servidores:             
+    if maquina['estado'] == 'running':  
+        print(maquina['id'])            
