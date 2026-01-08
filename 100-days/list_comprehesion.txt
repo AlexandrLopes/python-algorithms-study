@@ -2,6 +2,7 @@ List Comprehension
 
 A List Comprehension não é mágica; é apenas uma forma de reescrever um loop for mudando a ordem das palavras.
 Vamos fazer uma comparação direta de "De/Para".
+
 1. A Anatomia do Código
 Um loop tradicional tem 3 ingredientes essenciais. Veja este código:
 Python
