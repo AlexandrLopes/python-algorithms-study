@@ -1,33 +1,43 @@
 # Python Algorithms & Automations Study
 
-Welcome to my Python development journey! This repository serves as a central hub for my coding experiments, algorithm solutions, and automation scripts.
+Welcome to my Python development journey. This repository serves as a central hub for my coding experiments, algorithm solutions, and automation scripts.
 
-##  Objectives
-* Master **Data Structures & Algorithms** (DSA) to write efficient code.
-* Automate daily tasks and cloud infrastructure operations using **Python**.
-* Document solutions from coding platforms (HackerRank, LeetCode).
-* Apply **Clean Code** principles and PEP8 standards.
+It documents my technical evolution, focusing on programming logic, data structures, and the transition into Cloud Engineering.
 
-##  Repository Structure
+## Objectives
+* Master Data Structures & Algorithms (DSA) to write efficient code.
+* Automate daily tasks and cloud infrastructure operations using Python.
+* Document solutions from coding challenges.
+* Apply Clean Code principles and PEP8 standards.
+
+## Repository Structure
 
 | Directory | Description |
 | :--- | :--- |
-| **algorithms/** | Implementation of sorting (Bubble, Merge) and searching algorithms. |
-| **data-structures/** | Practical examples of Lists, Dictionaries, Sets, and Trees. |
-| **automation/** | Scripts for file manipulation, API requests, and **AWS Boto3** tasks. |
-| **challenges/** | Solutions for logic challenges from HackerRank/LeetCode. |
-| **00-legacy/** | My early scripts and experiments (keeping track of my evolution). |
+| **projects/** | Complete and functional applications. Example: Pomodoro App (GUI). |
+| **remembers/** | Concept notes, syntax snippets, and quick practice exercises for memory retention. |
 
-##  Technologies & Libraries
+### Current Content Detail:
+
+#### Projects
+* **Pomodoro App:** A productivity timer application with breaks and a graphical user interface using Tkinter.
+
+#### Remembers (Concepts & Syntax)
+* **List & Dictionary Comprehension:** Explanations and practical examples of optimized syntax.
+* **Pandas:** Initial scripts for data analysis and manipulation.
+* **OOP Logic:** Object-Oriented Programming logic applied to quizzes and logic problems.
+
+## Technologies & Libraries
 * **Language:** Python 3.x
-* **Cloud SDK:** Boto3 (AWS)
-* **Testing:** PyTest / Unittest
-* **Tools:** PyCharm, Git
+* **GUI:** Tkinter
+* **Data:** Pandas
+* **Version Control:** Git & GitHub
 
-##  How to Run
-Ensure you have **Python 3.x** installed.
-You can run any individual script directly from your terminal or IDE:
+## How to Run
+Ensure you have Python 3.x installed.
+
+To run a specific project, navigate to the folder and execute the script:
 
 ```bash
-# Example
-python name_of_script.py
+cd projects/pomodoro-app
+python pomodoro.py
