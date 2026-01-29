@@ -1,14 +1,14 @@
-# 🐍 Python Algorithms & Automations Study
+# Python Algorithms & Automations Study
 
 Welcome to my Python development journey! This repository serves as a central hub for my coding experiments, algorithm solutions, and automation scripts.
 
-## 🎯 Objectives
+##  Objectives
 * Master **Data Structures & Algorithms** (DSA) to write efficient code.
 * Automate daily tasks and cloud infrastructure operations using **Python**.
 * Document solutions from coding platforms (HackerRank, LeetCode).
 * Apply **Clean Code** principles and PEP8 standards.
 
-## 📂 Repository Structure
+##  Repository Structure
 
 | Directory | Description |
 | :--- | :--- |
@@ -18,13 +18,13 @@ Welcome to my Python development journey! This repository serves as a central hu
 | **challenges/** | Solutions for logic challenges from HackerRank/LeetCode. |
 | **00-legacy/** | My early scripts and experiments (keeping track of my evolution). |
 
-## 🛠️ Technologies & Libraries
+##  Technologies & Libraries
 * **Language:** Python 3.x
 * **Cloud SDK:** Boto3 (AWS)
 * **Testing:** PyTest / Unittest
 * **Tools:** PyCharm, Git
 
-## 🚀 How to Run
+##  How to Run
 Ensure you have **Python 3.x** installed.
 You can run any individual script directly from your terminal or IDE:
 
