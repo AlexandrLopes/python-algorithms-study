@@ -13,6 +13,7 @@ class User:
 
 user_1 = User("001","angela")
 user_2 = User("002","Jack")
+
 #crio a classe, e coloco os parametros que
 #vou chamar dentro dela mesmo
 
