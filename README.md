@@ -21,6 +21,7 @@ It documents my technical evolution, focusing on programming logic, data structu
 
 #### Projects
 * **Pomodoro App:** A productivity timer application with breaks and a graphical user interface using Tkinter.
+* **Password Mnager:** A password genereator for login using a graphical user interface with Tkinter.
 
 #### Remembers (Concepts & Syntax)
 * **List & Dictionary Comprehension:** Explanations and practical examples of optimized syntax.
