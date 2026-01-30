@@ -19,10 +19,7 @@ def generate_password():
     shuffle(password_list)
 
     password = "".join(password_list)
-    
-    # --- A ÚNICA MUDANÇA ESTÁ AQUI ---
     password_entry.delete(0, END) 
-    # ---------------------------------
     
     password_entry.insert(0, password)
     pyperclip.copy(password)
