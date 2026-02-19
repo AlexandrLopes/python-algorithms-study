@@ -1,7 +1,7 @@
 
 """
-Write a for loop that goes through all instances in this list and prints the ID Environment only for servers whose State is equal to “running.”
-code: 
+Write a for loop that goes through all instances in this list 
+and prints the ID Environment only for servers whose State is equal to “running.”
 
 aws_api_response = {
     "Region": "us-east-1",
