@@ -1,3 +1,5 @@
+"""
+
 aws_iam_response = {
     "account_alias": "my-company-prod",
     "users": [
@@ -6,18 +8,27 @@ aws_iam_response = {
         {"user_id": "dev_03", "status": "active"} 
     ]
 }
+"""
 
-#reescrever o código, se necessário, para facilitar entrar dentro do dicionário.
-#criar uma variável que já nos coloca dentro de onde queremos ter esse acesso ao dicionário
-#criar o loop baseado no que queremos, se atentando com o try e except
+aws_api_response = {
+    "Region": "us-east-1",
+    "Account": "1234567890",
+    "Instances": [
+        {"Id": "i-0a1b2c", "State": "running", "Tags": {"Name": "Web-Server-01", "Environment": "Production"}},
+        {"Id": "i-0x9y8z", "State": "stopped"},
+        {"Id": "i-0p1q2r", "State": "running", "Tags": {"Name": "Database-Main"}}
+    ]
+}
 
-mfa_users = aws_iam_response["users"]
+server_list = aws_api_response["Instances"]
 
-for mfa_user in mfa_users:
-    if mfa_user["status"] == "activate":
-        try: 
-            mfa_status = mfa_user["active"] ["mfa_active"]
+for server in server_list:
+    if server["State"] == "running":
+        
+        try:
+            environment = server["Tags"]["Environment"]
         except KeyError:
-            mfa_status = False
-        print(f"User {mfa_user['user_id']} has MFA: {mfa_status}")
+            environment = "Unknown"
+            
+        print(f"Server {server['Id']} is in environment: {environment}")
 
