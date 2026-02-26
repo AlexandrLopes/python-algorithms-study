@@ -9,7 +9,9 @@ rds_databases = [
 
 # TODO: Write a loop. Print the 'db_name' ONLY if the 'cost' is greater than 1000.
 # Write your code below:
-
+for name in rds_databases:
+    if name["cost"] > 1000:
+        print(["db_name"])
 
 
 # -----------------------------------
