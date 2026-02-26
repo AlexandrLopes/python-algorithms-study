@@ -1,6 +1,13 @@
 # Day 1 - Exercise 5
-# Theme: Basic Loops and Dictionaries (JSON extraction)
+# Context: Security Check. You must identify S3 buckets exposed to the public.
 
-# Context: [Paste the challenge context here]
+s3_buckets = [
+    {'bucket_name': 'bucket_name-623', 'is_public': False},
+    {'bucket_name': 'bucket_name-750', 'is_public': False},
+    {'bucket_name': 'bucket_name-177', 'is_public': False},
+    {'bucket_name': 'bucket_name-860', 'is_public': False}
+]
 
-# TODO: Write your code below
+# TODO: Write a for loop to print the 'bucket_name' ONLY if 'is_public' is True.
+# Write your code below:
+

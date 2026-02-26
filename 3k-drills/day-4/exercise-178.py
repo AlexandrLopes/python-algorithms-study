@@ -1,6 +1,14 @@
-# Day 4 - Exercise 178
+# Day 4 - Exercise 178 | ID: 119
 # Theme: List Comprehension
+# Context: Quick Filtering. You need to isolate stopped servers in a single line of code.
 
-# Context: [Paste the challenge context here]
+servers = ['running', 'stopped', 'stopped', 'running']
 
-# TODO: Write your code below
+# TODO: Use list comprehension to create a new list called 'stopped_servers' containing only 'stopped'. Print the new list.
+# Write your code below:
+
+
+
+# -----------------------------------
+# Expected Output:
+# ['stopped', 'stopped']

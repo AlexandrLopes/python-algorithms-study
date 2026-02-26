@@ -1,6 +1,20 @@
-# Day 3 - Exercise 65
-# Theme: Exception Handling (KeyError, IndexError)
+# Day 3 - Exercise 65 | ID: 100
+# Theme: Exception Handling (KeyError)
+# Context: Tagging Audit. Some EC2 instances are missing the 'Tags' key entirely.
 
-# Context: [Paste the challenge context here]
+instances = [
+    {'id': 'i-01', 'Tags': {'Env': 'Prod'}},
+    {'id': 'i-02'},
+    {'id': 'i-03', 'Tags': {'Env': 'Dev'}}
+]
 
-# TODO: Write your code below
+# TODO: Loop through the instances. Use try/except. Print the 'Env' tag. If KeyError occurs, print 'Untagged'.
+# Write your code below:
+
+
+
+# -----------------------------------
+# Expected Output:
+# Prod
+# Untagged
+# Dev

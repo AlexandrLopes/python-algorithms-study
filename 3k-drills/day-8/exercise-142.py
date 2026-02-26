@@ -1,6 +1,14 @@
-# Day 8 - Exercise 142
-# Theme: Functions and Modularity
+# Day 8 - Exercise 142 | ID: 936
+# Theme: Functions (Modularity)
+# Context: Reusability. Create a function that calculates total storage cost.
 
-# Context: [Paste the challenge context here]
+# No data setup needed, build the function.
 
-# TODO: Write your code below
+# TODO: Define a function named 'get_cost' that takes 'gb_size' and 'price_per_gb'. Return the multiplication. Call it with (100, 0.02) and print.
+# Write your code below:
+
+
+
+# -----------------------------------
+# Expected Output:
+# 2.0

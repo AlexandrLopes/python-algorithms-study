@@ -1,6 +1,13 @@
 # Day 1 - Exercise 87
-# Theme: Basic Loops and Dictionaries (JSON extraction)
+# Context: IAM Compliance. List the usernames of users who do NOT have MFA enabled.
 
-# Context: [Paste the challenge context here]
+iam_users = [
+    {'username': 'username-637', 'mfa_active': True},
+    {'username': 'username-708', 'mfa_active': True},
+    {'username': 'username-786', 'mfa_active': True},
+    {'username': 'username-924', 'mfa_active': True}
+]
 
-# TODO: Write your code below
+# TODO: Write a loop and an if statement. Print 'username' ONLY if 'mfa_active' is False.
+# Write your code below:
+

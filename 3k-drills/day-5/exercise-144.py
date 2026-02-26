@@ -1,6 +1,14 @@
-# Day 5 - Exercise 144
+# Day 5 - Exercise 144 | ID: 305
 # Theme: Dictionary Comprehension
+# Context: Mapping Resources. You need to map server IDs to a default status.
 
-# Context: [Paste the challenge context here]
+server_ids = ['i-111', 'i-222', 'i-333']
 
-# TODO: Write your code below
+# TODO: Use dictionary comprehension to create a dict where the key is the ID and the value is 'monitored'. Print the dict.
+# Write your code below:
+
+
+
+# -----------------------------------
+# Expected Output:
+# {'i-111': 'monitored', 'i-222': 'monitored', 'i-333': 'monitored'}
