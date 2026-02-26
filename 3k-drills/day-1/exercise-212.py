@@ -1,14 +1,18 @@
 # Day 1 - Exercise 212
-# Context: Cloud Auditing. You need to find all EC2 instances that are currently 'running'.
+# Context: IAM Compliance. List the usernames of users who do NOT have MFA enabled.
 
-ec2_instances = [
-    {'id': 'id-824', 'state': 'stopped'},
-    {'id': 'id-749', 'state': 'stopped'},
-    {'id': 'id-110', 'state': 'terminated'},
-    {'id': 'id-138', 'state': 'stopped'},
-    {'id': 'id-931', 'state': 'running'}
+iam_users = [
+    {'username': 'user-790', 'mfa_active': False},
+    {'username': 'user-289', 'mfa_active': False},
+    {'username': 'user-701', 'mfa_active': True}
 ]
 
-# TODO: Write a for loop with an if statement. Print the 'id' ONLY if the 'state' is 'running'.
+# TODO: Write a loop and an if statement. Print 'username' ONLY if 'mfa_active' is False.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# user-790
+# user-289

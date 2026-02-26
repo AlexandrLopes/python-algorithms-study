@@ -1,14 +1,18 @@
 # Day 1 - Exercise 160
-# Context: Security Check. You must identify S3 buckets exposed to the public.
+# Context: Security Check. Identify S3 buckets exposed to the public.
 
 s3_buckets = [
-    {'bucket_name': 'bucket_name-139', 'is_public': True},
-    {'bucket_name': 'bucket_name-811', 'is_public': False},
-    {'bucket_name': 'bucket_name-135', 'is_public': False},
-    {'bucket_name': 'bucket_name-571', 'is_public': False},
-    {'bucket_name': 'bucket_name-536', 'is_public': True}
+    {'bucket_name': 'bucket-527', 'is_public': False},
+    {'bucket_name': 'bucket-435', 'is_public': False},
+    {'bucket_name': 'bucket-246', 'is_public': False},
+    {'bucket_name': 'bucket-614', 'is_public': True}
 ]
 
 # TODO: Write a for loop to print the 'bucket_name' ONLY if 'is_public' is True.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# bucket-614

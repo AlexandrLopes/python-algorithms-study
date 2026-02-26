@@ -1,14 +1,20 @@
 # Day 1 - Exercise 232
-# Context: Security Check. You must identify S3 buckets exposed to the public.
+# Context: IAM Compliance. List the usernames of users who do NOT have MFA enabled.
 
-s3_buckets = [
-    {'bucket_name': 'bucket_name-464', 'is_public': True},
-    {'bucket_name': 'bucket_name-456', 'is_public': False},
-    {'bucket_name': 'bucket_name-552', 'is_public': True},
-    {'bucket_name': 'bucket_name-314', 'is_public': False},
-    {'bucket_name': 'bucket_name-858', 'is_public': True}
+iam_users = [
+    {'username': 'user-525', 'mfa_active': True},
+    {'username': 'user-152', 'mfa_active': False},
+    {'username': 'user-577', 'mfa_active': False},
+    {'username': 'user-383', 'mfa_active': False}
 ]
 
-# TODO: Write a for loop to print the 'bucket_name' ONLY if 'is_public' is True.
+# TODO: Write a loop and an if statement. Print 'username' ONLY if 'mfa_active' is False.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# user-152
+# user-577
+# user-383

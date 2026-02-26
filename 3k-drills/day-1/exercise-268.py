@@ -1,13 +1,17 @@
 # Day 1 - Exercise 268
-# Context: Cloud Auditing. You need to find all EC2 instances that are currently 'running'.
+# Context: FinOps Routine. Find databases that cost more than $1000 a month.
 
-ec2_instances = [
-    {'id': 'id-159', 'state': 'terminated'},
-    {'id': 'id-471', 'state': 'terminated'},
-    {'id': 'id-420', 'state': 'stopped'},
-    {'id': 'id-467', 'state': 'terminated'}
+rds_databases = [
+    {'db_name': 'db-968', 'cost': 250},
+    {'db_name': 'db-887', 'cost': 1200},
+    {'db_name': 'db-190', 'cost': 800}
 ]
 
-# TODO: Write a for loop with an if statement. Print the 'id' ONLY if the 'state' is 'running'.
+# TODO: Write a loop. Print the 'db_name' ONLY if the 'cost' is greater than 1000.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# db-887

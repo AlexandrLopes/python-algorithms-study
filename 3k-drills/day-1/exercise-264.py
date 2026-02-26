@@ -1,14 +1,19 @@
 # Day 1 - Exercise 264
-# Context: IAM Compliance. List the usernames of users who do NOT have MFA enabled.
+# Context: Cloud Auditing. Find all EC2 instances that are currently 'running'.
 
-iam_users = [
-    {'username': 'username-346', 'mfa_active': False},
-    {'username': 'username-242', 'mfa_active': True},
-    {'username': 'username-353', 'mfa_active': False},
-    {'username': 'username-863', 'mfa_active': False},
-    {'username': 'username-519', 'mfa_active': False}
+ec2_instances = [
+    {'id': 'i-293', 'state': 'stopped'},
+    {'id': 'i-905', 'state': 'stopped'},
+    {'id': 'i-193', 'state': 'stopped'},
+    {'id': 'i-507', 'state': 'terminated'},
+    {'id': 'i-312', 'state': 'stopped'}
 ]
 
-# TODO: Write a loop and an if statement. Print 'username' ONLY if 'mfa_active' is False.
+# TODO: Write a for loop with an if statement. Print the 'id' ONLY if the 'state' is 'running'.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# (No output expected for this specific random data)

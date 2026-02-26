@@ -1,13 +1,19 @@
 # Day 1 - Exercise 9
-# Context: Cloud Auditing. You need to find all EC2 instances that are currently 'running'.
+# Context: Security Check. Identify S3 buckets exposed to the public.
 
-ec2_instances = [
-    {'id': 'id-469', 'state': 'running'},
-    {'id': 'id-154', 'state': 'terminated'},
-    {'id': 'id-870', 'state': 'running'},
-    {'id': 'id-159', 'state': 'running'}
+s3_buckets = [
+    {'bucket_name': 'bucket-338', 'is_public': False},
+    {'bucket_name': 'bucket-989', 'is_public': True},
+    {'bucket_name': 'bucket-492', 'is_public': False},
+    {'bucket_name': 'bucket-706', 'is_public': False},
+    {'bucket_name': 'bucket-212', 'is_public': False}
 ]
 
-# TODO: Write a for loop with an if statement. Print the 'id' ONLY if the 'state' is 'running'.
+# TODO: Write a for loop to print the 'bucket_name' ONLY if 'is_public' is True.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# bucket-989

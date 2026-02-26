@@ -1,12 +1,20 @@
 # Day 1 - Exercise 219
-# Context: Cloud Auditing. You need to find all EC2 instances that are currently 'running'.
+# Context: Cloud Auditing. Find all EC2 instances that are currently 'running'.
 
 ec2_instances = [
-    {'id': 'id-471', 'state': 'terminated'},
-    {'id': 'id-330', 'state': 'terminated'},
-    {'id': 'id-972', 'state': 'running'}
+    {'id': 'i-426', 'state': 'running'},
+    {'id': 'i-305', 'state': 'running'},
+    {'id': 'i-267', 'state': 'running'},
+    {'id': 'i-873', 'state': 'terminated'}
 ]
 
 # TODO: Write a for loop with an if statement. Print the 'id' ONLY if the 'state' is 'running'.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# i-426
+# i-305
+# i-267

@@ -2,13 +2,17 @@
 # Context: FinOps Routine. Find databases that cost more than $1000 a month.
 
 rds_databases = [
-    {'db_name': 'db_name-436', 'cost': 1200},
-    {'db_name': 'db_name-961', 'cost': 3500},
-    {'db_name': 'db_name-520', 'cost': 250},
-    {'db_name': 'db_name-481', 'cost': 800},
-    {'db_name': 'db_name-733', 'cost': 250}
+    {'db_name': 'db-503', 'cost': 800},
+    {'db_name': 'db-457', 'cost': 3500},
+    {'db_name': 'db-171', 'cost': 3500}
 ]
 
 # TODO: Write a loop. Print the 'db_name' ONLY if the 'cost' is greater than 1000.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# db-457
+# db-171

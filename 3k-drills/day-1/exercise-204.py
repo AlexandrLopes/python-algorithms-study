@@ -1,13 +1,19 @@
 # Day 1 - Exercise 204
-# Context: Security Check. You must identify S3 buckets exposed to the public.
+# Context: FinOps Routine. Find databases that cost more than $1000 a month.
 
-s3_buckets = [
-    {'bucket_name': 'bucket_name-166', 'is_public': False},
-    {'bucket_name': 'bucket_name-382', 'is_public': False},
-    {'bucket_name': 'bucket_name-821', 'is_public': True},
-    {'bucket_name': 'bucket_name-869', 'is_public': False}
+rds_databases = [
+    {'db_name': 'db-349', 'cost': 1200},
+    {'db_name': 'db-600', 'cost': 1200},
+    {'db_name': 'db-381', 'cost': 250},
+    {'db_name': 'db-851', 'cost': 250}
 ]
 
-# TODO: Write a for loop to print the 'bucket_name' ONLY if 'is_public' is True.
+# TODO: Write a loop. Print the 'db_name' ONLY if the 'cost' is greater than 1000.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# db-349
+# db-600

@@ -1,13 +1,17 @@
 # Day 1 - Exercise 80
-# Context: IAM Compliance. List the usernames of users who do NOT have MFA enabled.
+# Context: FinOps Routine. Find databases that cost more than $1000 a month.
 
-iam_users = [
-    {'username': 'username-190', 'mfa_active': True},
-    {'username': 'username-554', 'mfa_active': False},
-    {'username': 'username-637', 'mfa_active': False},
-    {'username': 'username-838', 'mfa_active': False}
+rds_databases = [
+    {'db_name': 'db-768', 'cost': 250},
+    {'db_name': 'db-517', 'cost': 3500},
+    {'db_name': 'db-345', 'cost': 250}
 ]
 
-# TODO: Write a loop and an if statement. Print 'username' ONLY if 'mfa_active' is False.
+# TODO: Write a loop. Print the 'db_name' ONLY if the 'cost' is greater than 1000.
 # Write your code below:
 
+
+
+# -----------------------------------
+# Expected Output:
+# db-517
