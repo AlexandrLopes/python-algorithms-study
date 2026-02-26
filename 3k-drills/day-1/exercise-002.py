@@ -11,6 +11,9 @@ ec2_instances = [
 # TODO: Write a for loop with an if statement. Print the 'id' ONLY if the 'state' is 'running'.
 # Write your code below:
 
+for identification in ec2_instances:
+    if identification["state"] == "running":
+        print(identification["id"])
 
 
 # -----------------------------------

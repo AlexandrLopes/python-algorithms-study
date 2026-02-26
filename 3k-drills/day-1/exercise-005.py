@@ -12,6 +12,9 @@ iam_users = [
 # TODO: Write a loop and an if statement. Print 'username' ONLY if 'mfa_active' is False.
 # Write your code below:
 
+for name in iam_users:
+    if name["mfa_active"] == False:
+        print(name["username"])
 
 
 # -----------------------------------

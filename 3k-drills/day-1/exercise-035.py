@@ -10,7 +10,9 @@ s3_buckets = [
 
 # TODO: Write a for loop to print the 'bucket_name' ONLY if 'is_public' is True.
 # Write your code below:
-
+for bucket in s3_buckets:
+    if bucket["is_public"]:
+        print(bucket["bucket_name"])
 
 
 # -----------------------------------
