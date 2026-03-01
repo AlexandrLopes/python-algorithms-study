@@ -9,7 +9,9 @@ vpcs = [
 
 # TODO: Write a nested loop (a loop inside a loop). First loop through the VPCs, then loop through the 'subnets' of each VPC. Print every subnet ID.
 # Write your code below:
-
+for vpc in vpcs:
+    for subnet in vpc["subnets"]:
+        print(subnet)
 
 
 # -----------------------------------
